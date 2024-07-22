@@ -57,6 +57,9 @@ export function About() {
                     </div>
                 </div>
                 
+                    <div className='heading py-10'>
+                        <h2>Mission</h2>
+                    </div>
                 <div className='promis bg-gray-100 '>
                     <div className='cardBox m-3 hover:bg-blue-300 '>
                         <div className='cardImage'>

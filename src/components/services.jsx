@@ -36,54 +36,115 @@ export function Services() {
                 <div className="heading py-10">
                     <h2>Read Our Latest Blog Posts, News & Articles</h2>
                 </div>
-                <div className="card-group p-4 m-4 ">
-                    <div className="card  me-4 rounded hover:shadow-2xl hover:bg-cyan-500 ">
-                        <img src="b4.jpg" className="card-img-top img-fluid" alt="Not Available"  />
-                        <div className="card-body">
-                            <h5 className="card-title text-justify">Website Designing</h5>
-                            <p className="card-text text-justify overflow-hidden">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div className="container p-4 m-4">
+                    <div className="row">
+                        <div className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
+                            <div className="card card-fixed rounded hover:shadow-2xl hover:bg-cyan-500">
+                                <img src="b4.jpg" className="card-img-top img-fluid" alt="Not Available" />
+                                <div className="card-body overflow-hidden">
+                                    <h5 className="card-title text-justify">Website Designing</h5>
+                                    <p className="card-text text-justify">
+                                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                    </p>
+                                </div>
+                                <div className="p-2">
+                                    <button className="btn btn-primary">
+                                        <Link to="" className="text-decoration-none text-black font-extrabold p-2 shadow-xl">
+                                            Click Me
+                                        </Link>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        <div className="p-2">
-                            <button className=' btn btn-primary'>
-                                <Link to='' className='text-decoration-none text-black font-extrabold p-2 shadow-xl'>Click Me</Link>
-                            </button>
+                        <div className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
+                            <div className="card card-fixed rounded hover:shadow-2xl hover:bg-cyan-500">
+                                <img src="b1.jpg" className="card-img-top img-fluid" alt="Not Available" />
+                                <div className="card-body">
+                                    <h5 className="card-title text-justify">Important Points For Digital Marketing</h5>
+                                    <p className="card-text text-justify">
+                                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                    </p>
+                                </div>
+                                <div className="p-2">
+                                    <button className="btn btn-primary">
+                                        <Link to="" className="text-decoration-none text-black font-extrabold p-2 shadow-xl">
+                                            Click Me
+                                        </Link>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div className="card me-4 rounded hover:shadow-2xl hover:bg-cyan-500">
-                        <img src="b1.jpg" className="card-img-top img-fluid" alt="Not Available" />
-                        <div className="card-body">
-                            <h5 className="card-title text-justify">Important Points For Digital Marketing</h5>
-                            <p className="card-text text-justify">TThis is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
+                            <div className="card card-fixed rounded hover:shadow-2xl hover:bg-cyan-500">
+                                <img src="b2.webp" className="card-img-top img-fluid" alt="Not Available" />
+                                <div className="card-body">
+                                    <h5 className="card-title text-justify">Pay Per Click Advertising: Powerful Strategy for..</h5>
+                                    <p className="card-text text-justify">
+                                        This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                                    </p>
+                                </div>
+                                <div className="p-2">
+                                    <button className="btn btn-primary">
+                                        <Link to="" className="text-decoration-none text-black font-extrabold p-2 shadow-xl">
+                                            Click Me
+                                        </Link>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        <div className="p-2">
-                            <button className=' btn btn-primary'>
-                                <Link to='' className='text-decoration-none text-black font-extrabold p-2 shadow-xl'>Click Me</Link>
-                            </button>
+                        <div className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
+                            <div className="card card-fixed rounded hover:shadow-2xl hover:bg-cyan-500">
+                                <img src="bo.jpg" className="card-img-top img-fluid" alt="Not Available" />
+                                <div className="card-body">
+                                    <h5 className="card-title text-justify">The Significance of Social Media Marketing for..</h5>
+                                    <p className="card-text text-justify">
+                                        This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                                    </p>
+                                </div>
+                                <div className="p-2">
+                                    <button className="btn btn-primary">
+                                        <Link to="" className="text-decoration-none text-black font-extrabold p-2 shadow-xl">
+                                            Click Me
+                                        </Link>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div className="card me-4 rounded hover:shadow-2xl hover:bg-cyan-500">
-                        <img src="b2.webp" className="card-img-top img-fluid" alt="Not Available" />
-                        <div className="card-body">
-                            <h5 className="card-title text-justify">Pay Per Click Advertising: Powerful Strategy for..</h5>
-                            <p className="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <div className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
+                            <div className="card card-fixed rounded hover:shadow-2xl hover:bg-cyan-500">
+                                <img src="b6.webp" className="card-img-top img-fluid" alt="Not Available" />
+                                <div className="card-body">
+                                    <h5 className="card-title text-justify">Importaince of Social Media</h5>
+                                    <p className="card-text text-justify">
+                                        This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                                    </p>
+                                </div>
+                                <div className="p-2">
+                                    <button className="btn btn-primary">
+                                        <Link to="" className="text-decoration-none text-black font-extrabold p-2 shadow-xl">
+                                            Click Me
+                                        </Link>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        <div className="p-2">
-                            <button className=' btn btn-primary'>
-                                <Link to='' className='text-decoration-none text-black font-extrabold p-2 shadow-xl'>Click Me</Link>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className="card me-4 rounded hover:shadow-2xl hover:bg-cyan-500">
-                        <img src="bo.jpg" className="card-img-top img-fluid" alt="Not Available" />
-                        <div className="card-body">
-                            <h5 className="card-title text-justify">The Significance of Social Media Marketing for..</h5>
-                            <p className="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div className="p-2">
-                            <button className=' btn btn-primary'>
-                                <Link to='' className='text-decoration-none text-black font-extrabold p-2 shadow-xl'>Click Me</Link>
-                            </button>
+                        <div className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
+                            <div className="card card-fixed rounded hover:shadow-2xl hover:bg-cyan-500">
+                                <img src="b5.jpeg" className="card-img-top img-fluid" alt="Not Available" />
+                                <div className="card-body">
+                                    <h5 className="card-title text-justify">Amazing Facts Of Digital Marketing</h5>
+                                    <p className="card-text text-justify">
+                                        This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                                    </p>
+                                </div>
+                                <div className="p-2">
+                                    <button className="btn btn-primary">
+                                        <Link to="" className="text-decoration-none text-black font-extrabold p-2 shadow-xl">
+                                            Click Me
+                                        </Link>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
