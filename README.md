@@ -35,7 +35,7 @@ visually appealing, user-friendly, and optimized for both desktop and mobile dev
 
 ### Getting Started
 
-To view the application locally and contribute to the project. [BM-Solution-SPA](https://xyzlink).
+To view the application locally and contribute to the project. [BM-Solution-SPA](https://brain-media-solution-spa.vercel.app/).
 
 ## Contributing
 
