@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 export function Footer() {
     return (
@@ -12,23 +13,23 @@ export function Footer() {
                         <div className="mt-4 md:mt-0">
                             <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-center">
                                 <li>
-                                    <a href="#contact" className="text-sm hover:underline">Contact Us</a>
+                                    <Link to="/contact" className="text-sm hover:underline">Contact Us</Link>
                                 </li>
                                 <li>
-                                    <a href="https://brainsmediasolutions.com/privacy-policy/" className="text-sm hover:underline">Privacy Policy</a>
+                                    <Link to="https://brainsmediasolutions.com/privacy-policy/" className="text-sm hover:underline">Privacy Policy</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="mt-4 md:mt-0 flex space-x-4">
-                            <a href="https://www.facebook.com/brainsmediasolutions" className="text-gray-500 hover:text-gray-700">
+                            <Link to="https://www.facebook.com/brainsmediasolutions" className="text-gray-500 hover:text-gray-700">
                                 <span className="h-6 w-6 bi-facebook"></span>
-                            </a>
-                            <a href="https://www.linkedin.com/company/brains-media-solutions-pvt-ltd-/" className="text-gray-500 hover:text-gray-700">
+                            </Link>
+                            <Link to="https://www.linkedin.com/company/brains-media-solutions-pvt-ltd-/" className="text-gray-500 hover:text-gray-700">
                                 <span className="h-6 w-6 bi-linkedin"></span>
-                            </a>
-                            <a href="https://www.instagram.com/Brains_Media_Solutions/" className="text-gray-500 hover:text-gray-700">
+                            </Link>
+                            <Link to="https://www.instagram.com/Brains_Media_Solutions/" className="text-gray-500 hover:text-gray-700">
                                 <span className="h-8 w-8 bi-instagram"></span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
